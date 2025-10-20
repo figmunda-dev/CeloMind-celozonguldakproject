@@ -1,4 +1,4 @@
-# 🌍 CeloMind
+# 🌍 CeloMind - zonguldak
 
 **Your AI-Powered Developer Assistant for the Celo Ecosystem — now with cUSD-based micropayments**
 
