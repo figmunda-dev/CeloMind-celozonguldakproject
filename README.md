@@ -1,5 +1,5 @@
 # 🌍 CeloMind - zonguldak
-
+DEV : THEMRE
 **Your AI-Powered Developer Assistant for the Celo Ecosystem — now with cUSD-based micropayments**
 
 CeloMind is an AI-driven developer assistant that helps builders, students, and innovators build faster on the Celo blockchain. Now powered by smart contracts, each AI interaction is paid with cUSD — bringing blockchain-integrated AI experiences to life.
