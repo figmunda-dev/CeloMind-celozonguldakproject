@@ -1,55 +1,47 @@
 # 🌍 CeloMind
 
-**Your AI-Powered Developer Assistant for the Celo Ecosystem**
+**Your AI-Powered Developer Assistant for the Celo Ecosystem — now with cUSD-based micropayments**
 
-CeloMind is an AI-driven developer assistant designed to help builders, students, and innovators build faster on the Celo blockchain. It provides natural language support, smart contract guidance, and real-time technical assistance — all powered by an LLM fine-tuned for the Celo ecosystem.
+CeloMind is an AI-driven developer assistant that helps builders, students, and innovators build faster on the Celo blockchain. Now powered by smart contracts, each AI interaction is paid with cUSD — bringing blockchain-integrated AI experiences to life.
 
 ---
 
 ## ⚙️ Key Features
 
-### 🧩 Natural Language Interaction
-Ask anything like:
-- “How do I deploy a smart contract on Celo Alfajores?”
-- “Generate a Solidity template for a staking contract.”
+### 💬 AI Chat with Blockchain Payments
+- Chat with an LLM fine-tuned for Celo
+- Each message is paid with **cUSD (Celo Dollar)**
+- Transparent and secure per-prompt micropayments
 
-### 💡 Celo SDK & Composer Guidance
-Step-by-step help for using Celo Composer, ContractKit, and other ecosystem tools.
+### 🤖 OpenAI Integration
+- Powered by OpenAI's GPT model
+- Generates Solidity contracts, explains concepts, and answers questions about Celo
 
-### 🤖 AI-Powered Code Assistance
-Suggests, reviews, and explains Celo smart contract snippets in real-time.
-
-### 📚 Documentation Chat Layer
-Indexed on Celo docs, dev guides, and GitHub repos for fast contextual answers.
-
-### 🔍 Intent Recognition
-Converts developer intent into concrete actions (e.g., deploy, fund, test).
-
-### 🧾 Multi-Channel Availability
-Available as a:
-- Web interface
-- CLI assistant
-- Telegram miniapp
+### 🔗 On-chain Payment System
+- Smart contract deployed on **Alfajores Testnet**
+- Accepts cUSD payments per prompt
+- Prevents unauthorized AI access without payment
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 | Layer         | Technology                          |
 | ------------- | ----------------------------------- |
-| **AI / NLP**  | OpenAI API / Fine-tuned LLM         |
-| **Backend**   | Node.js / Express                   |
-| **Blockchain**| @celo/contractkit, @celo/composer   |
-| **Frontend**  | Next.js / React / TailwindCSS       |
-| **Database**  | MongoDB (user sessions, logs)       |
-| **Hosting**   | Vercel / Railway / Render           |
-| **Optional**  | LangChain (for context management)  |
+| AI / NLP      | OpenAI API (GPT-3.5/4)              |
+| Backend       | Node.js / Express / Next.js (App Router) |
+| Smart Contract| Solidity (ERC20-based payments)     |
+| Blockchain SDK| @celo/contractkit, @celo/composer   |
+| Frontend      | React / TailwindCSS / Scaffold-ETH 2 |
+| Database      | MongoDB (optional for user sessions/logs) |
+| Hosting       | Vercel / Railway / Render           |
 
 ---
 
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the repo
+
 ```bash
 git clone https://github.com/figmunda-dev/CeloMind-celozonguldakproject.git
-cd CeloMind
+cd CeloMind/packages/nextjs
